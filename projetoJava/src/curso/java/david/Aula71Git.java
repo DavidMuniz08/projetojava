@@ -11,6 +11,12 @@ public class Aula71Git {
 	 private int idade;
 	 
 	 private Date dataNascimento;
+	 
+	 private long cpf;
+	 
+	 private long rg:;
+	 
+	 private long endereco;
 
 	public Date getDataNascimento() {
 		return dataNascimento;
