@@ -1,5 +1,7 @@
 package curso.java.david;
 
+import java.util.Date;
+
 public class Aula71Git {
      
 	 private String nome;
@@ -7,6 +9,16 @@ public class Aula71Git {
 	 private String sobrenome;
 	 
 	 private int idade;
+	 
+	 private Date dataNascimento;
+
+	public Date getDataNascimento() {
+		return dataNascimento;
+	}
+
+	public void setDataNascimento(Date dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
 
 	public int getIdade() {
 		return idade;
