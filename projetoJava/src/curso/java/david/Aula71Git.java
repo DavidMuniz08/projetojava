@@ -11,6 +11,36 @@ public class Aula71Git {
 	 private int idade;
 	 
 	 private Date dataNascimento;
+	 
+	 private long cpf;
+	 
+	 private long rg;
+	 
+	 private long endereço;
+
+	public long getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(long cpf) {
+		this.cpf = cpf;
+	}
+
+	public long getRg() {
+		return rg;
+	}
+
+	public void setRg(long rg) {
+		this.rg = rg;
+	}
+
+	public long getEndereço() {
+		return endereço;
+	}
+
+	public void setEndereço(long endereço) {
+		this.endereço = endereço;
+	}
 
 	public Date getDataNascimento() {
 		return dataNascimento;
